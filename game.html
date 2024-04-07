@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <!--title of webpage-->
+    <title>Typing Speed Test Game</title>
+    <!--link to stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!--this is where all the content goes inside the box-->
+    <div class="wrapper">
+      <input type="text" class="input-field">
+      <div class="content-box">
+        <div class="typing-text">
+          <p></p>
+        </div>
+        <div class="content">
+          <ul class="result-details">
+            <!--timer countdown-->
+            <li class="time">
+              <p>Time Left:</p>
+              <span><b>60</b>s</span>
+            </li>
+            <!--how many mistakes you made shows here-->
+            <li class="mistake">
+              <p>Mistakes:</p>
+              <span>0</span>
+            </li>
+            <!--how many words per minute shows here-->
+            <li class="wpm">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+            <!--how many character per minute shows here-->
+            <li class="cpm">
+              <p>CPM:</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <!--try again button-->
+          <button>Try Again</button>
+        </div>
+      </div>
+    </div>
+    <!--link to script and paragraphs used-->
+    <script src="js/paragraphs.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
